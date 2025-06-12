@@ -262,7 +262,6 @@ Option 1: MongoDB Atlas (Cloud - Recommended)
     1. Important: In the copied connection string, replace '<username>' with your created username and '<password>' with the password you wrote down.
 
     Example connection string (after filling in username/password):
-    'mongodb+srv://yourusername:yourpassword@yourcluster.mongodb.net/fitnessdb?' 'retryWrites=true&w=majority'
 
   6. Update 'server/.env': Paste this complete connection string into your 'server/.env' file as the value for 'MONGODB_URI'.
 
